@@ -45,10 +45,10 @@ Navigation
   display: inline-block;
   vertical-align: middle;
   width: 20%;
+  height: 60px;
   position: relative;
   font-size: 16px;
-  height: 100%;
-  padding: 0 1%;
+  padding: 19px 1%;
 }
 .navigation__item:before {
   content: "";

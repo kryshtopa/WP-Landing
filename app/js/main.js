@@ -5,7 +5,7 @@ $(document).ready(function(){
     enterText.init();
     gentleNav.init();
   }
-
+  $('.section-1').css({"min-height": $(window).height()});
 });
 
 

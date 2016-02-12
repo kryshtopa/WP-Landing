@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 html(lang="en")
   head
     <meta charset="UTF-8">
@@ -26,107 +27,107 @@ html(lang="en")
     <!-- endbower -->
     <!-- endbuild -->
     
-body
-  .wrapper
-    header.site-header
-      nav.site-header__navigation
-        ul.navigation__list
-          .container_navigation
-            each val, index in {start: "Start", why: "Why", how: "How", price: "Price", order: "Order"}
-              li.navigation__item
-                a.navigation__link.hvr-buzz-out(href='#' + index)= val
-    
-    #start
-    section.section.section-1
-      .container
-        h1.section__h1.section-1__h1 Hey! Here's a landing page on Wordpress!
-        h2.section__h2.section-1__h2 And you can order one right now!
-        a.button.section-1__button.hvr-sweep-to-right(href='#order') Order        
-
-    #why
-    section.section.section-2(data-parallax="scroll" data-image-src="images/par1.jpg")
-      .container
-        h2.section__h2.section-2__h2 Why Wordpress?
-      .section__text.section-2__text
-        .container
-          p.section__p.section-2__p If you want to manage your business using World's TOP CMS and make any changes in your website's content just in seconds, Landing Page based on Wordpress is a perfect choice for you!
-          p.section__p.section-2__p Main benefits of migration on a Wordpress-based landing page are clear and simple
-      .container
-        ul.section__list.section-2__list
-          li.section__item.section-2__item
-            .section-2__img
-              img.section__img-link.section-2__img-link(src="images/w1.jpg", alt="")
-            .section__text.section-2__text
-              p.section__p.section-2__p Wordpress is the most popular and easy-to-use content managment system      
-          li.section__item.section-2__item
-            .section-2__img
-              img.section__img-link.section-2__img-link(src="images/w2.jpg", alt="")
-            .section__text.section-2__text
-              p.section__p.section-2__p Using Wordpress you won't need to ask your web developer's help every time you want to make some changes in your site's content     
-          li.section__item.section-2__item
-            .section-2__img
-              img.section__img-link.section-2__img-link(src="images/w3.jpg", alt="")
-            .section__text.section-2__text
-              p.section__p.section-2__p If you already have a Wordpress site, you can make various different landing pages without affecting main design      
+  body
+    .wrapper
+      header.site-header
+        nav.site-header__navigation
+          ul.navigation__list
+            .container_navigation
+              each val, index in {start: "Start", why: "Why", how: "How", price: "Price", order: "Order"}
+                li.navigation__item
+                  a.navigation__link.hvr-buzz-out(href='#' + index)= val
       
-    #how        
-    section.section.section-3
-      .container
-        h2.section__h2.section-3__h2 How does it work?
-        .section__text.section-3__text If you've never used Wordpress, all you need to know is that making changes in your content is almost that easy as in the example below.
-        input.section-3__input(type="text" placeholder="Try to type here")
-        .section__text.section-3__input-text You can easily change this text!
-        ul.section__list.section-3__list
-          li.section__item.section-3__item
-            .section-3__img
-              img.section__img-link.section-3__img-link(src="images/h1.jpg", alt="")
-            .section__text.section-3__text
-              p.section__p.section-3__p Moving your landing page on Wordpress will not affect your main wordpress site's desing (if you already have one). It just makes a new page template, witch you may use every time you need to make a new landing page.
-          li.section__item.section-3__item
-            .section-3__img
-              img.section__img-link.section-3__img-link(src="images/h2.jpg", alt="")
-            .section__text.section-3__text
-              p.section__p.section-3__p Having a wordpress landing page meens that you may add any change in your content just like making changes in ordinary wordpress post.
-          li.section__item.section-3__item
-            .section-3__img
-              img.section__img-link.section-3__img-link(src="images/h3.jpg", alt="")
-            .section__text.section-3__text
-              p.section__p.section-3__p Every part of your landing page have a specified field in worpdress admin panel. So you just change those that need to be changed and press "Publish". Quick and Easy!
-    
-    #price
-    section.section.section-4(data-parallax="scroll" data-image-src="images/par1.jpg")
-      .container
-        h2.section__h2.section-4__h2 How much does it cost?
-        ul.section__list.section-4__list
-          li.section__item.section-4__item
-            .section__text.section-4__text If you want to have your landing page running on Wordpress, you may order in right now. Price starts from just
-          li.section__item.section-4__item
-            .section__text.section-4__text
-              h3.section__h3.section-4__h3.hvr-buzz-out 49 USD
-          li.section__item.section-4__item
-            .section__text.section-4__text For this price you'll get the whole range of services connected with the migration from your existing HTML-site to a truly Wordpress.
+      #start
+      section.section.section-1
+        .container
+          h1.section__h1.section-1__h1 Hey! Here's a landing page on Wordpress!
+          h2.section__h2.section-1__h2 And you can order one right now!
+          a.button.section-1__button.hvr-sweep-to-right(href='#order') Order        
 
-    #order
-    section.section.section-5
-      .container
-        h2.section__h2.section-5__h2 Write me now and order your new Wordpress Landing Page!
-        .contact-form
-    
-  footer.site-footer
-    .container
-      .site-footer__copyright Made by 
-        a.site-footer__link(href='http://kryshtopa.com', target="_blank") Dmitry Kryshtopa
+      #why
+      section.section.section-2(data-parallax="scroll" data-image-src="images/par1.jpg")
+        .container
+          h2.section__h2.section-2__h2 Why Wordpress?
+        .section__text.section-2__text
+          .container
+            p.section__p.section-2__p If you want to manage your business using World's TOP CMS and make any changes in your website's content just in seconds, Landing Page based on Wordpress is a perfect choice for you!
+            p.section__p.section-2__p Main benefits of migration on a Wordpress-based landing page are clear and simple
+        .container
+          ul.section__list.section-2__list
+            li.section__item.section-2__item
+              .section-2__img
+                img.section__img-link.section-2__img-link(src="images/w1.jpg", alt="")
+              .section__text.section-2__text
+                p.section__p.section-2__p Wordpress is the most popular and easy-to-use content managment system      
+            li.section__item.section-2__item
+              .section-2__img
+                img.section__img-link.section-2__img-link(src="images/w2.jpg", alt="")
+              .section__text.section-2__text
+                p.section__p.section-2__p Using Wordpress you won't need to ask your web developer's help every time you want to make some changes in your site's content     
+            li.section__item.section-2__item
+              .section-2__img
+                img.section__img-link.section-2__img-link(src="images/w3.jpg", alt="")
+              .section__text.section-2__text
+                p.section__p.section-2__p If you already have a Wordpress site, you can make various different landing pages without affecting main design      
         
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.js"><\/script>');
-  </script>
-  
-  <!-- build:js js/vendor.min.js -->            
-  <!-- bower:js -->
-  <script src="bower/parallax.js/parallax.min.js"></script>  
-  <!-- endbower -->
-  <!-- endbuild -->
-  
-  <!-- build:js js/main.min.js -->
-  <script src="js/main.js"></script>
-  <!-- endbuild -->
+      #how        
+      section.section.section-3
+        .container
+          h2.section__h2.section-3__h2 How does it work?
+          .section__text.section-3__text If you've never used Wordpress, all you need to know is that making changes in your content is almost that easy as in the example below.
+          input.section-3__input(type="text" placeholder="Try to type here")
+          .section__text.section-3__input-text You can easily change this text!
+          ul.section__list.section-3__list
+            li.section__item.section-3__item
+              .section-3__img
+                img.section__img-link.section-3__img-link(src="images/h1.jpg", alt="")
+              .section__text.section-3__text
+                p.section__p.section-3__p Moving your landing page on Wordpress will not affect your main wordpress site's desing (if you already have one). It just makes a new page template, witch you may use every time you need to make a new landing page.
+            li.section__item.section-3__item
+              .section-3__img
+                img.section__img-link.section-3__img-link(src="images/h2.jpg", alt="")
+              .section__text.section-3__text
+                p.section__p.section-3__p Having a wordpress landing page meens that you may add any change in your content just like making changes in ordinary wordpress post.
+            li.section__item.section-3__item
+              .section-3__img
+                img.section__img-link.section-3__img-link(src="images/h3.jpg", alt="")
+              .section__text.section-3__text
+                p.section__p.section-3__p Every part of your landing page have a specified field in worpdress admin panel. So you just change those that need to be changed and press "Publish". Quick and Easy!
+      
+      #price
+      section.section.section-4(data-parallax="scroll" data-image-src="images/par1.jpg")
+        .container
+          h2.section__h2.section-4__h2 How much does it cost?
+          ul.section__list.section-4__list
+            li.section__item.section-4__item
+              .section__text.section-4__text If you want to have your landing page running on Wordpress, you may order in right now. Price starts from just
+            li.section__item.section-4__item
+              .section__text.section-4__text
+                h3.section__h3.section-4__h3.hvr-buzz-out 49 USD
+            li.section__item.section-4__item
+              .section__text.section-4__text For this price you'll get the whole range of services connected with the migration from your existing HTML-site to a truly Wordpress.
+
+      #order
+      section.section.section-5
+        .container
+          h2.section__h2.section-5__h2 Write me now and order your new Wordpress Landing Page!
+          .contact-form
+      
+    footer.site-footer
+      .container
+        .site-footer__copyright Made by 
+          a.site-footer__link(href='http://kryshtopa.com', target="_blank") Dmitry Kryshtopa
+          
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.js"><\/script>');
+    </script>
+    
+    <!-- build:js js/vendor.min.js -->            
+    <!-- bower:js -->
+    <script src="bower/parallax.js/parallax.min.js"></script>  
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js js/main.min.js -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->

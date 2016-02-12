@@ -145,4 +145,13 @@
   .section-4__item {
     margin-bottom: 10%;
   }
+
+  /* --------- Section 5 --------- */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+  .contact-form .wpcf7-submit {
+    width: 100%;
+  }
 }
