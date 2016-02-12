@@ -1,0 +1,18 @@
+/* --------- adjustment --------- */
+
+@import "_common/general_styles.scss";
+@import "_common/mixins.scss";
+
+/* --------- sections --------- */
+
+@import "_sections/navigation.scss";
+@import "_sections/section-1.scss";
+@import "_sections/section-2.scss";
+@import "_sections/section-3.scss";
+@import "_sections/section-4.scss";
+@import "_sections/section-5.scss";
+@import "_sections/footer.scss";
+
+/* --------- adaptive --------- */
+
+@import "_common/adaptive.scss";

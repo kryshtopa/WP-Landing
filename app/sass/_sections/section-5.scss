@@ -1,0 +1,32 @@
+@import "_common/mixins.scss";
+@import "_sections/section-1.scss";
+
+
+/*--------------------------------------------------------------
+Section 5
+--------------------------------------------------------------*/
+
+#order {
+  height: 63px;
+  margin-top: -63px;
+}
+.contact-form {
+  font-family: OpenSans-Semibold;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-align: center;
+  input,
+  textarea {
+    width: 50%;
+  }
+  .wpcf7-submit {
+    @extend .section-1__button;
+    @include prefix(border, none);
+    width: 50%;
+    margin: 5% auto;
+  }
+  .wpcf7-not-valid-tip {
+    display: block;
+    color: red;
+  }
+}

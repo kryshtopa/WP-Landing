@@ -1,0 +1,58 @@
+@import "_common/mixins.scss";
+
+/*--------------------------------------------------------------
+Section 3
+--------------------------------------------------------------*/
+
+#how {
+  height: 63px;
+  margin-top: -63px;
+}
+.section-3 {
+  background-color: limegreen;
+  color: white;
+}
+.section-3__input {
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  padding: 1%;
+  margin-bottom: 7%;
+  outline: none;
+  width: 30%;
+}
+.section-3__input-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 0;
+  margin-bottom: 7%;
+  margin-left: 5%;
+  font-size: 2.3em;
+  width: 64%;
+  font-family: OpenSans-Semibold;
+}
+.section-3__list {
+  @include clearfix;
+
+}
+.section-3__item {
+  width: 100%;
+  display: block;
+  margin-left: 0;
+  position: relative;
+  margin-bottom: 3%;
+  @include clearfix;
+
+  .section-3__text {
+    width: 64.5%;
+    float: right;
+    padding: 0;
+  }
+}
+.section-3__img {
+  width: 30%;
+  float: left;
+}
+.section-3__img-link {
+  @include prefix (border, 0.5rem solid white);
+}

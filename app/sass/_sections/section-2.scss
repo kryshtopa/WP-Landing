@@ -1,0 +1,50 @@
+@import "_common/mixins.scss";
+
+/*--------------------------------------------------------------
+Section 2
+--------------------------------------------------------------*/
+
+#why {
+  height: 63px;
+  margin-top: -63px;
+}
+.section-2 {
+  @include prefix(box-shadow, inset 0 0 70px black);
+}
+.section-2__h1 {
+  color: white;
+}
+.section-2__h2 {
+  color: white;
+}
+.section-2__list {padding-bottom: 5%}
+.section-2__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -4px;
+  width: 30%;
+  margin-left: 5%;
+  &:first-child {
+    margin-left: 0;
+  }
+  .section-2__text {
+    padding: 4% 5%;
+  }
+}
+.section-2__img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 20%;
+}
+.section-2__img-link {
+  margin-bottom: 2%;
+  @include prefix (border, 0.8rem solid white);
+  @include prefix (border-radius, 50%);
+  @include prefix(box-shadow, 0 0 70px black);
+}
+.section-2__text {
+  background-color: white;
+  padding: 4% 0;
+  font-size: 1.4em;
+  @include prefix(box-shadow, 0 0 70px black);
+}
